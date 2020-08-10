@@ -17,12 +17,12 @@ discourse-adplugin
 ### config ssh
 
 ### install plugin
-cd /opt/bitnami/apps/discourse/htdocs
-sudo RAILS_ENV=production bundle exec rake plugin:install repo=PLUGIN_REPO_URL
-sudo RAILS_ENV=production bundle exec rake assets:precompile
+cd /opt/bitnami/apps/discourse/htdocs <br>
+sudo RAILS_ENV=production bundle exec rake plugin:install repo=PLUGIN_REPO_URL <br>
+sudo RAILS_ENV=production bundle exec rake assets:precompile <br>
 
 
 ### uninstall plugin
-cd /opt/bitnami/apps/discourse/htdocs/plugins
-rm -rf PLUGIN-DIR
-sudo RAILS_ENV=production bundle exec rake assets:precompile
+cd /opt/bitnami/apps/discourse/htdocs/plugins <br>
+rm -rf PLUGIN-DIR <br>
+sudo RAILS_ENV=production bundle exec rake assets:precompile <br>
