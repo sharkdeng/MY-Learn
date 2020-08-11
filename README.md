@@ -28,7 +28,13 @@ rm -rf PLUGIN-DIR <br>
 sudo RAILS_ENV=production bundle exec rake assets:precompile <br>
 
 
-<select>
-  <option>Ok</option>
-  <option>NotOk</option>
-</select>
+### change built-in contents
+
+https://github.com/discourse/discourse/blob/master/app/assets/javascripts/pretty-text/white-lister.js.es6
+
+// add these these two html tags
+export const DEFAULT_LIST = [
+  "select",
+  "option",
+  "a.attachment",
+  "a.hashtag",
