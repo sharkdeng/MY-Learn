@@ -1,0 +1,20 @@
+# 2020/9/14
+
+1) Add Google Analytics tracking code in header.php <br>
+Working <br>
+Not sure if it has would affect Chinese visits
+
+2) Add slider <br>
+Images are hard coded, stored in assets/images <br>
+
+
+Add lines to include swiper css and js in header.php
+Add images (banner) to assets/images
+
+
+3) Add footer
+
+Add images with footer as prefix to assets/images
+Add footer.css and init.css to assets/css
+Add two lines to include the css in header.php
+Add footer.php
